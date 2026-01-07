@@ -4,6 +4,7 @@ class B {
 
    B(int a) {
       this.a = a;
+      System.out.println(this.a);
    }
 
    public static void main(String[] args) {

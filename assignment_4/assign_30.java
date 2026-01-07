@@ -1,3 +1,4 @@
+/* Write a program where destroying parent object does not destroy aggregated object */
 class Part {
     void show() {
         System.out.println("Part is alive");

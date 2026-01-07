@@ -8,6 +8,7 @@ class Emp {
 
    Emp(Add a) {
       this.a = a;
+      System.out.println("Address value: " + a.c);
    }
 
    public static void main(String[] args) {
