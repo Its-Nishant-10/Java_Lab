@@ -8,13 +8,13 @@ class A_1 {
     }
 }
 
-class B extends A_1 {
-    B(int x) {
+class B_10 extends A_1 {
+    B_10(int x) {
         super(x);
     }
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
         System.out.println("Nishant Nahar - 2415551078");
-        new B(5);
+        new B_10(5);
     }
 }

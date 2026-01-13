@@ -1,6 +1,7 @@
 
 /* Create a Car class and count cars of a specific brand */
-import java.util.*;
+
+import java.util.Scanner;
 
 class Cars {
     String brand;

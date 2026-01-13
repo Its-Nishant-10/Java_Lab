@@ -3,7 +3,6 @@
  * Write a Java program to input a 2D matrix and check whether it is a sparse
  * matrix.
  */
-import java.util.*;
 
 public static void main(String args[]) {
     System.out.println("Nishant Nahar -- 241551078");

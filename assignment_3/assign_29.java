@@ -3,7 +3,8 @@
  * Create an Employee class and find employees with same salary but different
  * roles
  */
-import java.util.*;
+
+import java.util.Scanner;
 
 class employ_0 {
     String name;

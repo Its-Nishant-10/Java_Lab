@@ -1,6 +1,8 @@
 
 /* Write a Java program that accepts file name and word via command line arguments and counts how many times the word appears in the file */
-import java.io.*;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
 
 class WordCount {
     public static void main(String[] args) throws Exception {

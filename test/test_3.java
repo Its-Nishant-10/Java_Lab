@@ -1,16 +1,16 @@
-class A {
-    final int x;
-
+class A_00 {
     static {
         System.out.println("A: static block");
     }
+
+    final int x;
 
     {
         System.out.println("A: instance initializer");
         x = 100;
     }
 
-    A(int x) {
+    A_00(int x) {
         System.out.println("A: constructor, param x = " + x);
     }
 
@@ -23,18 +23,18 @@ class A {
     }
 }
 
-class B extends A {
-    int x = 200;
-
+class B_00 extends A_00 {
     static {
         System.out.println("B: static block");
     }
+
+    int x = 200;
 
     {
         System.out.println("B: instance initializer");
     }
 
-    B() {
+    B_00() {
         super(10);
         System.out.println("B: constructor");
     }
@@ -44,7 +44,7 @@ class B extends A {
     }
 }
 
-class C extends B {
+class C_00 extends B_00 {
     static {
         System.out.println("C: static block");
     }
@@ -53,7 +53,7 @@ class C extends B {
         System.out.println("C: instance initializer");
     }
 
-    C() {
+    C_00() {
         System.out.println("C: constructor");
     }
 
@@ -63,8 +63,8 @@ class C extends B {
 }
 
 public class test_3 {
-    public static void main(String[] args) {
-        A ref = new C();
+    static void main(String[] args) {
+        A_00 ref = new C_00();
         ref.display();
         ref.show();
     }

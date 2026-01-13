@@ -1,6 +1,4 @@
-
 // Write a Java program to remove duplicate elements from an array and print the new array size
-import java.util.*;
 
 public static void main(String args[]) {
     System.out.println("Nishant Nahar -- 241551078");

@@ -18,7 +18,7 @@ class C_0 extends B_1 {
         System.out.println("C");
     }
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
         System.out.println("Nishant Nahar - 241551078");
         new C_0();
     }

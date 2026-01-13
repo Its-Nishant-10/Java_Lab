@@ -1,6 +1,7 @@
 
 /* Create a Hotel class and find highest-rated hotel city-wise */
-import java.util.*;
+
+import java.util.Scanner;
 
 class Hotel {
     String name;

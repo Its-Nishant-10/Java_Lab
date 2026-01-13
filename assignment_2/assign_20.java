@@ -3,7 +3,6 @@
  * Write a Java program to input an array and shift all zeroes to the end while
  * maintaining order of non-zero elements.
  */
-import java.util.*;
 
 public static void main(String args[]) {
     System.out.println("Nishant Nahar -- 241551078");

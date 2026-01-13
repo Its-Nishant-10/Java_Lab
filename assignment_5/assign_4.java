@@ -5,14 +5,14 @@ class A_0 {
     }
 }
 
-class assign_4 extends A_0 {
-    assign_4() {
+class assig_4 extends A_0 {
+    assig_4() {
         System.out.println("B");
         super();
     }
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
         System.out.println("Nishant Nahar - 241551078");
-        new assign_4();
+        new assig_4();
     }
 }

@@ -1,6 +1,7 @@
 
 /* Create a Mobile class and count mobiles in different price ranges */
-import java.util.*;
+
+import java.util.Scanner;
 
 class Mobile {
     String brand;

@@ -15,15 +15,15 @@ class Box {
         this.a = a;
     }
 
+    public static void main(String[] args) {
+        System.out.println("Nishant Nahar - 241551078");
+        Obj[] list = {new Obj(1), new Obj(2)};
+        new Box(list).show();
+    }
+
     void show() {
         for (Obj obj : a) {
             System.out.println("ID: " + obj.id);
         }
-    }
-
-    public static void main(String[] args) {
-        System.out.println("Nishant Nahar - 241551078");
-        Obj[] list = { new Obj(1), new Obj(2) };
-        new Box(list).show();
     }
 }

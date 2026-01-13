@@ -1,6 +1,7 @@
 
 /* Create a BankAccount class and remove all zero-balance accounts */
-import java.util.*;
+
+import java.util.Scanner;
 
 class BankAccount {
     String name;

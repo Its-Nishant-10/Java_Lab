@@ -3,12 +3,24 @@
  * Create a class Stud with data members (name, roll, marks of 3 subjects).
  * Write methods to input details, calculate percentage, and display all details
  */
-import java.util.*;
+
+import java.util.Scanner;
 
 class Stud {
     String name;
     int roll;
     int marks1, marks2, marks3;
+
+    public static void main(String args[]) {
+        System.out.println("Nishant Nahar -- 241551078");
+        Scanner sc = new Scanner(System.in);
+
+        Stud s = new Stud();
+        s.inputDetails(sc);
+        s.displayDetails();
+
+        sc.close();
+    }
 
     void inputDetails(Scanner sc) {
         System.out.print("Enter name: ");
@@ -30,16 +42,5 @@ class Stud {
         System.out.println("Roll Number: " + roll);
         System.out.println("Marks: " + marks1 + " " + marks2 + " " + marks3);
         System.out.println("Percentage: " + calculatePercentage());
-    }
-
-    public static void main(String args[]) {
-        System.out.println("Nishant Nahar -- 241551078");
-        Scanner sc = new Scanner(System.in);
-
-        Stud s = new Stud();
-        s.inputDetails(sc);
-        s.displayDetails();
-
-        sc.close();
     }
 }

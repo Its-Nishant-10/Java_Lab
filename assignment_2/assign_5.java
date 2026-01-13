@@ -1,6 +1,4 @@
-
 // Write a Java program to count the frequency of each element in an array (using another array/map logic)
-import java.util.*;
 
 public static void main(String args[]) {
     System.out.println("Nishant Nahar -- 241551078");

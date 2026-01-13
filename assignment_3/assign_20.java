@@ -1,6 +1,7 @@
 
 /* Create an Employee class and find department-wise highest paid employee */
-import java.util.*;
+
+import java.util.Scanner;
 
 class employ {
     String name;

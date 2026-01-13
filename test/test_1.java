@@ -5,10 +5,6 @@ class Student {
     String name;
     int m1, m2, m3;
 
-    double percentage() {
-        return ((m1 + m2 + m3) / 300.0) * 100;
-    }
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -68,5 +64,9 @@ class Student {
         System.out.println("Grade F: " + F);
 
         sc.close();
+    }
+
+    double percentage() {
+        return ((m1 + m2 + m3) / 300.0) * 100;
     }
 }

@@ -1,5 +1,5 @@
 class Assign_23 {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         System.out.println("Nishant Nahar - 241551078");
     }
 }

@@ -1,6 +1,7 @@
 
 /* Create a Book class and display books published after a given year */
-import java.util.*;
+
+import java.util.Scanner;
 
 class Books {
     String book_name;

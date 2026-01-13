@@ -1,6 +1,7 @@
 
 /* Create a Product class and apply discount to products above a given price. */
-import java.util.*;
+
+import java.util.Scanner;
 
 class Product {
     String name;

@@ -9,13 +9,13 @@ class par {
 }
 
 class chi extends par {
+    static void main(String[] args) {
+        System.out.println("Nishant Nahar - 241551078");
+        new chi().show();
+    }
+
     void show() {
         super.show();
         System.out.println("B");
-    }
-
-    public static void main(String[] args) {
-        System.out.println("Nishant Nahar - 241551078");
-        new chi().show();
     }
 }

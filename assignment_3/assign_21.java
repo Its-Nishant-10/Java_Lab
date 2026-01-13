@@ -1,6 +1,7 @@
 
 /* Create a Book class and merge two arrays of books without duplicates */
-import java.util.*;
+
+import java.util.Scanner;
 
 class Book_0 {
     String name;

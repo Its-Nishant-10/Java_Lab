@@ -1,6 +1,7 @@
 
 /* Create a Movie class and display movies with rating greater than 8.5 */
-import java.util.*;
+
+import java.util.Scanner;
 
 class Movie {
     String name;

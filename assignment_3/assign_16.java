@@ -1,6 +1,7 @@
 
 /* Create a Player class and find top scorer and average score */
-import java.util.*;
+
+import java.util.Scanner;
 
 class Player {
     String name;

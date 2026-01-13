@@ -1,6 +1,7 @@
 
 /* Create a Customer class and search customer by email ID. */
-import java.util.*;
+
+import java.util.Scanner;
 
 class Customer {
     String name;

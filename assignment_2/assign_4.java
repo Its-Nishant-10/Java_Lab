@@ -1,6 +1,4 @@
-
 // Write a Java program to merge two sorted arrays into a new sorted array (without using built-in sort).
-import java.util.*;
 
 public static void main(String args[]) {
     System.out.println("Nishant Nahar -- 241551078");

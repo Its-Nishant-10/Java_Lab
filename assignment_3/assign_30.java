@@ -1,6 +1,7 @@
 
 /* Create a Hotel class and sort hotels by rating and then by price. */
-import java.util.*;
+
+import java.util.Scanner;
 
 class Hotel_1 {
     String name;

@@ -1,6 +1,7 @@
 
 /* Create a Student class and compute class average, highest and lowest marks */
-import java.util.*;
+
+import java.util.Scanner;
 
 class Stud_2 {
     int rollNo;

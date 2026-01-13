@@ -1,6 +1,5 @@
 
 /* Write a Java program to add two 2D matrices of user-given size. */
-import java.util.*;
 
 public static void main(String args[]) {
     System.out.println("Nishant Nahar -- 241551078");

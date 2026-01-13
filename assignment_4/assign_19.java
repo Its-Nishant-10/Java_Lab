@@ -3,16 +3,16 @@
  * Student
  */
 class Person {
-   String n = "Nishant";
+    String n = "Nishant";
 }
 
 class stud extends Person {
-   void d() {
-      System.out.println(n);
-   }
+    public static void main(String[] args) {
+        System.out.println("Nishant Nahar - 241551078");
+        new stud().d();
+    }
 
-   public static void main(String[] args) {
-      System.out.println("Nishant Nahar - 241551078");
-      new stud().d();
-   }
+    void d() {
+        System.out.println(n);
+    }
 }

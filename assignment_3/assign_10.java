@@ -2,7 +2,8 @@
 /*
  * Create a Laptop class and find the laptop with minimum price and maximum RAM
  */
-import java.util.*;
+
+import java.util.Scanner;
 
 class Laptop {
     String brand;

@@ -1,6 +1,7 @@
 
 /* Create an Employee class and update salary based on years of experience */
-import java.util.*;
+
+import java.util.Scanner;
 
 class employ_1 {
     String name;

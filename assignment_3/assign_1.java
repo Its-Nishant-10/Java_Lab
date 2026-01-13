@@ -3,16 +3,13 @@
  * Create a Student class and store details of N students in an
  * array of objects. Print the student having the highest average marks.
  */
-import java.util.*;
+
+import java.util.Scanner;
 
 class Stud_1 {
     int roll;
     String name;
     int mar1, mar2, mar3;
-
-    double avg() {
-        return (mar1 + mar2 + mar3) / 3.0;
-    }
 
     public static void main(String args[]) {
         System.out.println("Nishant Nahar -- 241551078");
@@ -39,5 +36,9 @@ class Stud_1 {
         }
         System.out.println("The Student with Highest Average Marks " + high.name);
         sc.close();
+    }
+
+    double avg() {
+        return (mar1 + mar2 + mar3) / 3.0;
     }
 }

@@ -1,6 +1,5 @@
 
 /* Write a Java program to multiply two matrices (check dimension validity). */
-import java.util.*;
 
 public static void main(String args[]) {
     System.out.println("Nishant Nahar -- 241551078");

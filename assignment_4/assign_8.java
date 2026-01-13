@@ -3,17 +3,17 @@
  * execution order
  */
 class Diff {
-   Diff() {
-      System.out.println("It is a constructor");
-   }
+    Diff() {
+        System.out.println("It is a constructor");
+    }
 
-   void meth() {
-      System.out.println("It is a method");
-   }
+    public static void main(String[] args) {
+        System.out.println("Nishant Nahar - 241551078");
+        Diff d = new Diff();
+        d.meth();
+    }
 
-   public static void main(String[] args) {
-      System.out.println("Nishant Nahar - 241551078");
-      Diff d = new Diff();
-      d.meth();
-   }
+    void meth() {
+        System.out.println("It is a method");
+    }
 }

@@ -1,6 +1,7 @@
 
 /* Create a Student class and remove a student object based on roll number */
-import java.util.*;
+
+import java.util.Scanner;
 
 class student_3 {
     int rollNo;

@@ -1,6 +1,7 @@
 
 /* Create a Train class and display trains between source and destination */
-import java.util.*;
+
+import java.util.Scanner;
 
 class Train {
     String name;

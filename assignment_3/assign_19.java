@@ -1,6 +1,7 @@
 
 /* Create a Student class and rank students based on total marks */
-import java.util.*;
+
+import java.util.Scanner;
 
 class student_4 {
     String name;

@@ -1,8 +1,7 @@
 
-/* 
-* Write a Java program to find all pairs of elements whose sum equals a target avoid duplicates 
-*/
-import java.util.*;
+/*
+ * Write a Java program to find all pairs of elements whose sum equals a target avoid duplicates
+ */
 
 public static void main(String args[]) {
     System.out.println("Nishant Nahar -- 241551078");

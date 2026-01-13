@@ -3,12 +3,24 @@
  * Create a class Account with accountNo, name, balance.
  * Write functions to deposit, withdraw, and display balance
  */
-import java.util.*;
+
+import java.util.Scanner;
 
 class Account {
     int accountNo;
     String name;
     double balance;
+
+    public static void main(String args[]) {
+        System.out.println("Nishant Nahar -- 241551078");
+        Account a = new Account();
+        a.inputDetails();
+        a.deposit(500);
+        a.withdraw(200);
+        a.deposit(1000);
+        a.withdraw(1);
+        a.displayBalance();
+    }
 
     void inputDetails() {
         Scanner sc = new Scanner(System.in);
@@ -40,16 +52,5 @@ class Account {
         System.out.println("Account Number: " + accountNo);
         System.out.println("Name: " + name);
         System.out.println("Balance: " + balance);
-    }
-
-    public static void main(String args[]) {
-        System.out.println("Nishant Nahar -- 241551078");
-        Account a = new Account();
-        a.inputDetails();
-        a.deposit(500);
-        a.withdraw(200);
-        a.deposit(1000);
-        a.withdraw(1);
-        a.displayBalance();
     }
 }

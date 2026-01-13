@@ -3,7 +3,8 @@
  * Create a Product class and detect duplicate product IDs using array of
  * objects
  */
-import java.util.*;
+
+import java.util.Scanner;
 
 class Prod_1 {
     int product_Id;

@@ -16,7 +16,7 @@ class Col {
 
     public static void main(String[] args) {
         System.out.println("Nishant Nahar - 241551078");
-        Stu[] list = { new Stu("S1"), new Stu("S2") };
+        Stu[] list = {new Stu("S1"), new Stu("S2")};
         Col c = new Col(list);
         for (Stu student : c.s) {
             System.out.println(student.n);

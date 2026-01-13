@@ -3,30 +3,11 @@
  * Create a class Box with (height, width, depth) and compute volume.
  * Create two objects and compare which box has larger volume.
  */
-import java.util.*;
+
+import java.util.Scanner;
 
 class Box_1 {
     double height, width, depth;
-
-    void inputDimensions(Scanner sc) {
-        System.out.print("Enter height: ");
-        height = sc.nextDouble();
-        System.out.print("Enter width: ");
-        width = sc.nextDouble();
-        System.out.print("Enter depth: ");
-        depth = sc.nextDouble();
-    }
-
-    double volume() {
-        return height * width * depth;
-    }
-
-    void display() {
-        System.out.println("Height: " + height);
-        System.out.println("Width: " + width);
-        System.out.println("Depth: " + depth);
-        System.out.println("Volume: " + volume());
-    }
 
     public static void main(String args[]) {
         System.out.println("Nishant Nahar -- 241551078");
@@ -54,5 +35,25 @@ class Box_1 {
         }
 
         sc.close();
+    }
+
+    void inputDimensions(Scanner sc) {
+        System.out.print("Enter height: ");
+        height = sc.nextDouble();
+        System.out.print("Enter width: ");
+        width = sc.nextDouble();
+        System.out.print("Enter depth: ");
+        depth = sc.nextDouble();
+    }
+
+    double volume() {
+        return height * width * depth;
+    }
+
+    void display() {
+        System.out.println("Height: " + height);
+        System.out.println("Width: " + width);
+        System.out.println("Depth: " + depth);
+        System.out.println("Volume: " + volume());
     }
 }

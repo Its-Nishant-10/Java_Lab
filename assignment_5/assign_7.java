@@ -1,24 +1,24 @@
-class A_3 {
-    A_3() {
+class A_31 {
+    A_31() {
         System.out.println("A");
     }
 }
 
-class B_1 extends A_3 {
-    B_1() {
+class B_11 extends A_31 {
+    B_11() {
         super();
         System.out.println("B");
     }
 }
 
-class C_0 extends B_1 {
-    C_0() {
+class C_01 extends B_11 {
+    C_01() {
         super();
         System.out.println("C");
     }
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
         System.out.println("Nishant Nahar - 241551078");
-        new C_0();
+        new C_01();
     }
 }

@@ -3,7 +3,8 @@
  * Create an Employee class and sort employees by salary without using built-in
  * sorting methods.
  */
-import java.util.*;
+
+import java.util.Scanner;
 
 class Employee {
     int emp_id;

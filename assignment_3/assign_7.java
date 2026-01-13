@@ -1,14 +1,11 @@
 
 /* Create a Rectangle class and find the rectangle with maximum area. */
-import java.util.*;
+
+import java.util.Scanner;
 
 class Rectangle {
     int length;
     int breadth;
-
-    int area() {
-        return length * breadth;
-    }
 
     public static void main(String[] args) {
         System.out.println("Nishant Nahar -- 241551078");
@@ -36,6 +33,10 @@ class Rectangle {
         System.out.println("Breadth = " + r[loc].breadth);
         System.out.println("Area = " + maxArea);
         sc.close();
+    }
+
+    int area() {
+        return length * breadth;
     }
 }
 

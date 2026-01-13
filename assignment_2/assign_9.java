@@ -1,6 +1,5 @@
 
 /* Write a Java program to separate even and odd numbers into two different arrays. */
-import java.util.*;
 
 public static void main(String args[]) {
     System.out.println("Nishant Nahar -- 241551078");

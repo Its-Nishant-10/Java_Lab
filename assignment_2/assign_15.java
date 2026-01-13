@@ -1,6 +1,5 @@
 
 /* Write a Java program to find the row with the maximum sum in a 2D matrix. */
-import java.util.*;
 
 public static void main(String args[]) {
     System.out.println("Nishant Nahar -- 241551078");

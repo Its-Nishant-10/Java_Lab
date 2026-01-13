@@ -1,5 +1,14 @@
-class Assign_11 {
-    public static void main(String[] args) {
-        System.out.println("Nishant Nahar - 241551078");
+class one {
+    final int x = 10;
+}
+
+class two extends one {
+    void show() {
+        // x = 20;
+    }
+
+    public static void main(String[] a) {
+        two t = new two();
+        t.show();
     }
 }

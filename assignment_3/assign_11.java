@@ -1,6 +1,7 @@
 
 /* Create a Person class and find the oldest and youngest person. */
-import java.util.*;
+
+import java.util.Scanner;
 
 class people {
     String name;

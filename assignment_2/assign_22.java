@@ -3,10 +3,22 @@
  * Create a class Rec with length & breadth.
  * Write methods to compute area, perimeter and display them
  */
-import java.util.*;
+
+import java.util.Scanner;
 
 class Rec {
     double length, breadth;
+
+    public static void main(String args[]) {
+        System.out.println("Nishant Nahar -- 241551078");
+        Scanner sc = new Scanner(System.in);
+
+        Rec r = new Rec();
+        r.inputDimensions(sc);
+        r.display();
+
+        sc.close();
+    }
 
     void inputDimensions(Scanner sc) {
         System.out.print("Enter length: ");
@@ -28,16 +40,5 @@ class Rec {
         System.out.println("Breadth: " + breadth);
         System.out.println("Area: " + area());
         System.out.println("Perimeter: " + perimeter());
-    }
-
-    public static void main(String args[]) {
-        System.out.println("Nishant Nahar -- 241551078");
-        Scanner sc = new Scanner(System.in);
-
-        Rec r = new Rec();
-        r.inputDimensions(sc);
-        r.display();
-
-        sc.close();
     }
 }

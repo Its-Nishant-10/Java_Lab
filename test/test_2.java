@@ -16,32 +16,32 @@
  * C. Display the final normalized time in HH:MM:SS format.
  */
 class Time {
-   int hours, minutes, seconds;
+    int hours, minutes, seconds;
 
-   Time(int hours, int minutes, int seconds) {
-      if (seconds >= 60) {
-         minutes = minutes + (seconds / 60);
-         seconds = seconds % 60;
-      }
-      if (minutes >= 60) {
-         hours = hours + (minutes / 60);
-         minutes = minutes % 60;
-      }
-      this.hours = hours;
-      this.minutes = minutes;
-      this.seconds = seconds;
-   }
+    Time(int hours, int minutes, int seconds) {
+        if (seconds >= 60) {
+            minutes = minutes + (seconds / 60);
+            seconds = seconds % 60;
+        }
+        if (minutes >= 60) {
+            hours = hours + (minutes / 60);
+            minutes = minutes % 60;
+        }
+        this.hours = hours;
+        this.minutes = minutes;
+        this.seconds = seconds;
+    }
 
-   Time addSeconds(int s) {
-      seconds = seconds + s;
-      return new Time(hours, minutes, seconds);
-   }
+    public static void main(String[] args) {
+        System.out.println("Nishant Nahar - 241551078");
+        Time t = new Time(1, 89, 50);
+        t = t.addSeconds(15);
+        t = t.addSeconds(90);
+        System.out.println("Time " + t.hours + ":" + t.minutes + ":" + t.seconds);
+    }
 
-   public static void main(String[] args) {
-      System.out.println("Nishant Nahar - 241551078");
-      Time t = new Time(1, 89, 50);
-      t = t.addSeconds(15);
-      t = t.addSeconds(90);
-      System.out.println("Time " + t.hours + ":" + t.minutes + ":" + t.seconds);
-   }
+    Time addSeconds(int s) {
+        seconds = seconds + s;
+        return new Time(hours, minutes, seconds);
+    }
 }

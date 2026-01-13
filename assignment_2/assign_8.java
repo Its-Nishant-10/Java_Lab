@@ -2,7 +2,6 @@
 /*
  * Write a Java program to sort an array using Bubble Sort and print each pass.
  */
-import java.util.*;
 
 public static void main(String args[]) {
     System.out.println("Nishant Nahar -- 241551078");

@@ -3,7 +3,6 @@
  * Write a Java program to find the transpose of a matrix without using an extra
  * array (in-place transpose).
  */
-import java.util.*;
 
 public static void main(String args[]) {
     System.out.println("Nishant Nahar -- 241551078");

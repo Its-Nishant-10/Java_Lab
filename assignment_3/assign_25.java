@@ -1,6 +1,7 @@
 
 /* Create an Item class and find most expensive item using object comparison */
-import java.util.*;
+
+import java.util.Scanner;
 
 class Item {
     String name;

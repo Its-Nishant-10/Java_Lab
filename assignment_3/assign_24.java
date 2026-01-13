@@ -1,6 +1,7 @@
 
 /* Create a Student class and separate pass and fail students */
-import java.util.*;
+
+import java.util.Scanner;
 
 class Stud_7 {
     String name;

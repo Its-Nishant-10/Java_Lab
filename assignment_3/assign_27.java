@@ -1,9 +1,9 @@
-
 /**
  * Create a Library class and implement search, issue, and return using array of
  * objects
  */
-import java.util.*;
+
+import java.util.Scanner;
 
 class Library {
     String bookName;

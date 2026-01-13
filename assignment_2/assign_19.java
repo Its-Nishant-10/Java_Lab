@@ -1,6 +1,5 @@
 
 /* Write a Java program to sort each row of a 2D matrix individually. */
-import java.util.*;
 
 public static void main(String args[]) {
     System.out.println("Nishant Nahar -- 241551078");

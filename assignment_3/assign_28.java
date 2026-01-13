@@ -1,6 +1,7 @@
 
 /* Create a Student class and assign grades (A/B/C/F) based on marks */
-import java.util.*;
+
+import java.util.Scanner;
 
 class stud_4 {
     String name;

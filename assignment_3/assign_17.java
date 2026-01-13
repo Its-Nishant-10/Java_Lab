@@ -1,6 +1,7 @@
 
 /* Create a Vehicle class and separate two-wheelers and four-wheelers */
-import java.util.*;
+
+import java.util.Scanner;
 
 class Vehicle {
     String name;
