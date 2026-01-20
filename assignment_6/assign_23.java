@@ -1,5 +1,5 @@
 package p1;
 
-public interface MyInterface {
+public interface assign_23 {
   void show();
 }
