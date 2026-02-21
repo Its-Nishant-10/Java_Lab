@@ -3,6 +3,7 @@ class Q3 {
         System.out.println("Nishant Nahar - 241551078");
         try {
             int n = Integer.parseInt("abc");
+            System.out.println(n);
         } catch (NumberFormatException e) {
             System.out.println(e);
         }

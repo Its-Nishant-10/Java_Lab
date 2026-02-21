@@ -12,5 +12,6 @@ class chi_1 extends par_1 {
     static void main(String[] args) {
         System.out.println("Nishant Nahar - 241551078");
         chi_1 c = new chi_1();
+        System.out.println(c.getClass().getName());
     }
 }

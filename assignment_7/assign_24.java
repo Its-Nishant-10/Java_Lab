@@ -4,8 +4,10 @@ class Q24 {
 
         try {
             int a = 10 / 0;
+            System.out.println(a);
         } finally {
             int b = 20 / 0;
+            System.out.println(b);
         }
     }
 }

@@ -3,6 +3,7 @@ class Q13 {
         System.out.println("Nishant Nahar - 241551078");
         try {
             int a = 10 / 2;
+            System.out.println(a);
         } finally {
             System.out.println("Finally executed");
         }

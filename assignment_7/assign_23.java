@@ -1,6 +1,7 @@
 class Q23 {
     static void first() {
         int a = 10 / 0;
+        System.out.println(a);
     }
 
     static void second() {

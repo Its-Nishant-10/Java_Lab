@@ -6,8 +6,11 @@ class Q5 {
         Scanner sc = new Scanner(System.in);
         try {
             int x = sc.nextInt();
+            System.out.println(x);
         } catch (InputMismatchException e) {
             System.out.println(e);
+        } finally {
+            sc.close();
         }
     }
 }
