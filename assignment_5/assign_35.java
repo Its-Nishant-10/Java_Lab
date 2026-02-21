@@ -5,13 +5,13 @@ class exc_p {
 }
 
 class exc_c extends exc_p {
-    void show() {
-        System.out.println("2");
-    }
-
     public static void main(String[] a) throws Exception {
         System.out.println("Nishant Nahar - 241551078");
         exc_p obj = new exc_c();
         obj.show();
+    }
+
+    void show() {
+        System.out.println("2");
     }
 }

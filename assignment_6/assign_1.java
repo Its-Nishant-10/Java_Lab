@@ -7,14 +7,14 @@ abstract class Animal {
 }
 
 class Dog extends Animal {
-    void so() {
-        System.out.println("Bark");
-    }
-
     public static void main(String[] args) {
         System.out.println("Nishant Nahar - 241551078");
         Animal a = new Dog();
         a.so();
         a.eat();
+    }
+
+    void so() {
+        System.out.println("Bark");
     }
 }

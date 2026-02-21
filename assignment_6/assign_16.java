@@ -7,13 +7,13 @@ interface intb {
 }
 
 class clc implements inta, intb {
-    public void show() {
-        System.out.println("Same method implemented");
-    }
-
     public static void main(String[] args) {
         System.out.println("Nishant Nahar - 241551078");
         clc obj = new clc();
         obj.show();
+    }
+
+    public void show() {
+        System.out.println("Same method implemented");
     }
 }

@@ -1,5 +1,15 @@
 class deed {
 
+    public static void main(String[] args) {
+        System.out.println("Nishant Nahar - 241551078");
+        new CT().work();
+        new CL().work(new KL());
+    }
+
+    interface I {
+        void input();
+    }
+
     static class K {
         void type() {
             System.out.println("Tight");
@@ -12,10 +22,6 @@ class deed {
         }
     }
 
-    interface I {
-        void input();
-    }
-
     static class KL implements I {
         public void input() {
             System.out.println("Loose");
@@ -26,11 +32,5 @@ class deed {
         void work(I i) {
             i.input();
         }
-    }
-
-    public static void main(String[] args) {
-        System.out.println("Nishant Nahar - 241551078");
-        new CT().work();
-        new CL().work(new KL());
     }
 }

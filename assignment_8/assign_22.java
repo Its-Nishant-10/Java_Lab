@@ -12,7 +12,10 @@ class as_1_q_22 {
             for (j = 0; j < m; j++) {
                 if (s.charAt(i + j) != t.charAt(j)) break;
             }
-            if (j == m) { index = i; break; }
+            if (j == m) {
+                index = i;
+                break;
+            }
         }
 
         System.out.println(index);

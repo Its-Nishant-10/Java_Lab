@@ -5,13 +5,13 @@ class d_par {
 }
 
 class d_chi extends d_par {
-    void show() {
-        System.out.println("2");
-    }
-
     public static void main(String[] a) {
         System.out.println("Nishant Nahar - 241551078");
         d_par obj = new d_chi();
         obj.show();
+    }
+
+    void show() {
+        System.out.println("2");
     }
 }

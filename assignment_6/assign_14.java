@@ -9,10 +9,6 @@ class d1 implements assi_1 {
 }
 
 class c1 implements assi_1 {
-    public void sound() {
-        System.out.println("Meow");
-    }
-
     public static void main(String[] args) {
         System.out.println("Nishant Nahar - 241551078");
         assi_1 ar;
@@ -20,5 +16,9 @@ class c1 implements assi_1 {
         ar.sound();
         ar = new c1();
         ar.sound();
+    }
+
+    public void sound() {
+        System.out.println("Meow");
     }
 }

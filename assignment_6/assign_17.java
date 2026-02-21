@@ -1,10 +1,10 @@
 interface myia {
-    default void helo() {
-        System.out.println("Hello");
-    }
-
     static void msgg() {
         System.out.println("Static Method");
+    }
+
+    default void helo() {
+        System.out.println("Hello");
     }
 }
 
