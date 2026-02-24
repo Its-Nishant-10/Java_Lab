@@ -2,7 +2,7 @@ class as_1_q_22 {
     public static void main(String[] args) {
         System.out.println("Nishant Nahar - 241551078");
         String s = "Nishant Pankaj Nahar";
-        String t = "Pankaj Nahar";
+        String t = "Nankaj Nahar";
         int n = s.length();
         int m = t.length();
         int index = -1;
