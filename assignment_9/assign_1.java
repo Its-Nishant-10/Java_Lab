@@ -8,5 +8,6 @@ class as_9_q_1 {
         String name = sc.nextLine();
         System.out.println("Name - " + name);
         System.err.println("Error Message Here !!");
+        sc.close();
     }
 }

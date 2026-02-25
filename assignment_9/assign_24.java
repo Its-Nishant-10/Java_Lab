@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.Scanner;
 
-public class as_9_q_24 {
+class as_9_q_24 {
     public static void main(String[] args) throws Exception {
         System.out.println("Nishant Nahar - 241551078");
         Scanner sc = new Scanner(System.in);
@@ -19,7 +19,9 @@ public class as_9_q_24 {
             sum += s2.nextInt();
             count++;
         }
+        s2.close();
         in.close();
+        sc.close();
         System.out.println("Sum = " + sum);
         System.out.println("Average = " + (sum / (double) count));
     }

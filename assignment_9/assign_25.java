@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.Scanner;
 
-public class as_9_q_25 {
+class as_9_q_25 {
     public static void main(String[] args) throws Exception {
         System.out.println("Nishant Nahar - 241551078");
 
@@ -28,5 +28,6 @@ public class as_9_q_25 {
         }
 
         file.close();
+        sc.close();
     }
 }

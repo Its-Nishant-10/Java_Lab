@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class as_9_q_16 {
+class as_9_q_16 {
     public static void main(String[] args) throws Exception {
         System.out.println("Nishant Nahar - 241551078");
         FileInputStream f = new FileInputStream("D:\\4th_sem\\java_lab\\assignment_9\\assign_7.txt");
@@ -8,7 +8,8 @@ public class as_9_q_16 {
         int lines = 0, words = 0;
         boolean i = false;
         while ((ch = f.read()) != -1) {
-            if (ch == '\n') lines++;
+            if (ch == '\n')
+                lines++;
             if (ch == ' ' || ch == '\n' || ch == '\t') {
                 i = false;
             } else if (!i) {

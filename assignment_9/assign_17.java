@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.Scanner;
 
-public class as_9_q_17 {
+class as_9_q_17 {
     public static void main(String[] args) throws Exception {
         System.out.println("Nishant Nahar - 241551078");
         Scanner sc = new Scanner(System.in);
@@ -20,5 +20,6 @@ public class as_9_q_17 {
         FileOutputStream out = new FileOutputStream("D:\\4th_sem\\java_lab\\assignment_9\\assign_17.txt");
         out.write(content.getBytes());
         out.close();
+        sc.close();
     }
 }

@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class as_9_q_20 {
+class as_9_q_20 {
     public static void main(String[] args) throws Exception {
         System.out.println("Nishant Nahar - 241551078");
         FileOutputStream out = new FileOutputStream("D:\\4th_sem\\java_lab\\assignment_9\\assign_20.txt");

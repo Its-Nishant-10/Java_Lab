@@ -4,9 +4,8 @@ class as_9_q_10 {
     public static void main(String[] args) throws Exception {
         System.out.println("Nishant Nahar - 241551078");
         FileInputStream fis = new FileInputStream("D:\\4th_sem\\java_lab\\assignment_9\\assign_7.txt");
-        int ch;
         int count = 0;
-        while ((ch = fis.read()) != -1) {
+        while (fis.read() != -1) {
             count++;
         }
         fis.close();
